@@ -13,7 +13,7 @@ The following guides are offered to help you improve your repository:
 - [Readme Guide](docs/guides/README_GUIDE.md): Write a great introductory text for your repository.
 - [Contributing Guide](docs/guides/CONTRIBUTING_GUIDE.md): Ensure smooth collaboration and contribution to your project.
 - [Code of Conduct Guide](docs/guides/CODE_OF_CONDUCT_GUIDE.md): Provide guidelines to ensure everyone can safely contribute.
-- [License Guide](docs/guides/LICENSE_GUDE.md): Pick an appropriate license.
+- [License Guide](docs/guides/LICENSE_GUIDE.md): Pick an appropriate license.
 
 ## Contributing
 
