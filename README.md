@@ -15,6 +15,9 @@ The following guides are offered to help you improve your repository:
 - [Code of Conduct Guide](docs/guides/CODE_OF_CONDUCT_GUIDE.md): Provide guidelines to ensure everyone can safely contribute.
 - [License Guide](docs/guides/LICENSE_GUIDE.md): Pick an appropriate license.
 
+> [!TIP]
+> GitHub [Community Standards](https://opensource.guide/) are a great source of information and best practices. You can check that your project follows these standards at any time by checking _Community Standards_ under the _Insights_ section.
+
 ## Contributing
 
 We welcome contributions from everyone. To get started, please read our [Contribution Guidelines](docs/CONTRIBUTING.md). Feel free to open issues, submit pull requests, or share your ideas.
