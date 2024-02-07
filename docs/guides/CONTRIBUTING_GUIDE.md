@@ -11,4 +11,4 @@ Writing Contributing guidelines depends on your project and how your team decide
 
 ## Adding Contributing guidelines
 
-Add a file called `CONTRIBUTING.md` to your repository with the text you wrote. GitHub automatically adds a link to this file in the _About_ section of your repository homepage.
+Add a file called `CONTRIBUTING.md` to the root of your repository, the `docs` folder, or the `.github` folder, with the text you wrote. GitHub automatically adds a link to this file in the _About_ section of your repository homepage.
