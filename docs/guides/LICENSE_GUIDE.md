@@ -2,6 +2,9 @@
 
 Make applicable license conditions transparent.
 
+> [!TIP]
+> More information is available from [GitHub documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
+
 ## Choosing a license
 
 The following [online guide](https://choosealicense.com/) is an excellent way to pick a license.

@@ -2,6 +2,10 @@
 
 Provide more context about contributions you are looking for and how they should occur.
 
+> [!TIP]
+> More information is available from [GitHub documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors).
+
+
 ## Writing Contributing guidelines
 
 Writing Contributing guidelines depends on your project and how your team decides to process contributions. To help you:

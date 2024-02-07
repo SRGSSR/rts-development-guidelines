@@ -2,6 +2,9 @@
 
 Promote a welcoming and safe environment for discussions and contributions.
 
+> [!TIP]
+> More information is available from [GitHub documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project).
+
 ## Picking a Code of Conduct
 
 The [Contributor Covenant](https://www.contributor-covenant.org/) provides a great Code of Conduct. You can use it as-is, adapt it to your needs, or write your own document.
