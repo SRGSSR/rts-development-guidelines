@@ -8,4 +8,4 @@ The [Contributor Covenant](https://www.contributor-covenant.org/) provides a gre
 
 ## Adding a Code of Conduct
 
-Add a file called `CODE_OF_CONDUCT.md` to your repository with the text of the Code of Conduct you chose. GitHub automatically adds a link to this file in the _About_ section of your repository homepage.
+Add a file called `CODE_OF_CONDUCT.md` to the root of your repository, the `docs` folder, or the `.github` folder, with the text of the Code of Conduct you chose. GitHub automatically adds a link to this file in the _About_ section of your repository homepage.
