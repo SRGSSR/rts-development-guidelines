@@ -4,7 +4,7 @@ Promote a welcoming and safe environment for discussions and contributions.
 
 ## Picking a Code of Conduct
 
-The [Contributor Covenant](https://www.contributor-covenant.org/) provides a great Code of Conduct. Except if you want to write your own you should simply adopt it.
+The [Contributor Covenant](https://www.contributor-covenant.org/) provides a great Code of Conduct. You can use it as-is, adapt it to your needs, or write your own document.
 
 ## Adding a Code of Conduct
 
