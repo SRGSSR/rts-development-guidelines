@@ -4,7 +4,7 @@ Thank you very much for your interest in contributing to our project! As a publi
 
 ## Purpose
 
-Please follow the present contributing guidelines so that we can efficiently consider your proposal. You should also read or our [code of conduct](CODE_OF_CONDUCT.md), providing a few guidelines to keep interactions as respectful as possible.
+Please follow the present contributing guidelines so that we can efficiently consider your proposal. You should also read our [code of conduct](CODE_OF_CONDUCT.md), providing a few guidelines to keep interactions as respectful as possible.
 
 ## Contributions we are looking for
 
