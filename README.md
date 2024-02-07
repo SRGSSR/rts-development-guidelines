@@ -20,7 +20,7 @@ The following guides are offered to help you improve your repository:
 
 ## Contributing
 
-We welcome contributions from everyone. To get started, please read our [Contribution Guidelines](docs/CONTRIBUTING.md). Feel free to [open issues](https://github.com/SRGSSR/guilde-plateformes-propres/issues/new), [submit pull requests](https://github.com/SRGSSR/guilde-plateformes-propres/compare), or share your ideas.
+We welcome contributions from everyone. To get started, please read our [Contribution Guidelines](docs/CONTRIBUTING.md). Feel free to [open issues](https://github.com/SRGSSR/guilde-plateformes-propres/issues/new), [submit pull requests](https://github.com/SRGSSR/guilde-plateformes-propres/compare), or [share your ideas](https://github.com/SRGSSR/guilde-plateformes-propres/discussions).
 
 ## License
 
