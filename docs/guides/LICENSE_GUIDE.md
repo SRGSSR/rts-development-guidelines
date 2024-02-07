@@ -8,7 +8,7 @@ The following [online guide](https://choosealicense.com/) is an excellent way to
 
 ## Adding a license
 
-Add a file called `LICENSE` to your repository with the text of the license you chose. GitHub automatically adds a link to this file in the _About_ section of your repository homepage.
+Add a file called `LICENSE` to the root of your repository, the `docs` folder, or the `.github` folder, with the text of the license you chose. GitHub automatically adds a link to this file in the _About_ section of your repository homepage.
 
 You can either repeat the license in each file requiring it but this is generally cumbersome. To make your life easier you can use the following reduced license instead, which points to the main license file for more information:
 
