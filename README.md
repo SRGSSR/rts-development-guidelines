@@ -16,7 +16,9 @@ The following guides are offered to help you improve your repository:
 - [License Guide](docs/guides/LICENSE_GUIDE.md): Pick an appropriate license.
 
 > [!TIP]
-> GitHub [Community Standards](https://opensource.guide/) are a great source of information and best practices. You can check that your project follows these standards at any time by checking _Community Standards_ under the _Insights_ section.
+> GitHub Community Standards are a great source of information and best practices. You can check that your project follows these standards at any time by checking _Community Standards_ under the _Insights_ section.
+
+More sources are available online for further reading; you can start exploring them at [opensource.guide](https://opensource.guide/).
 
 ## Contributing
 
