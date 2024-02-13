@@ -30,4 +30,4 @@ license file for more information:
 Avoid dates in license information since they have no real values and are likely never correctly
 updated.
 
-[github-documentatiojn]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository
+[github-documentation]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository

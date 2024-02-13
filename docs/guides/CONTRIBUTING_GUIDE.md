@@ -23,7 +23,5 @@ the `.github` folder, with the text you wrote. GitHub automatically adds a link 
 _About_ section of your repository homepage.
 
 [github-documentation]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors
-
 [pillarbox-contributing]: https://github.com/SRGSSR/pillarbox-apple/blob/main/docs/CONTRIBUTING.md
-
 [contributing-template]: https://github.com/nayafia/contributing-template
