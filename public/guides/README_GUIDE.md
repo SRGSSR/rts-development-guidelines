@@ -1,4 +1,16 @@
-# `<Project Name>`
+# Crafting a Readme
+
+This guide assists you in creating a compelling and concise README for your project. It provides
+step-by-step guidance on introducing your project and providing essential information for setting
+up and running your application.
+
+> [!Note]
+> Customize this template according to the specific needs of your projects. Add or remove sections
+> based on the nature of each project.
+
+---
+
+# `<Project Name>` <!-- {docsify-ignore} -->
 
 Introduce your project with a clear overview of its goals, providing essential context and
 addressing fundamental questions.
@@ -39,7 +51,7 @@ Include links to additional documentation resources related to your project in t
 
 Clarify how others can contribute to the project, with guidelines for bug reports, feature requests,
 or code contributions. Add a link to the Contribution guidelines (refer
-to [Contribution Guide](./CODE_OF_CONDUCT_GUIDE.md)).
+to [Contribution Guide](CODE_OF_CONDUCT_GUIDE.md)).
 
 **Automated Processes**
 
@@ -58,11 +70,5 @@ Provide a link to the License (refer to [License Guide](LICENSE_GUIDE.md)).
 
 Give credit to third-party libraries, tools, or individuals whose work is used or inspired your
 project.
-
----
-
-> [!Note]
-> Customize this template according to the specific needs of your projects. Add or remove sections
-> based on the nature of each project.
 
 [workflow-badges]: https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge

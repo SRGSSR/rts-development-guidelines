@@ -11,13 +11,12 @@ for seasoned developers to contribute to any project.
 ## Guides
 
 The following guides are offered to help you improve your repository:
-
-- [Readme Guide](docs/guides/README_GUIDE.md): Write a great introductory text for your repository.
-- [Contributing Guide](docs/guides/CONTRIBUTING_GUIDE.md): Ensure smooth collaboration and
+- [Readme Guide](https://srgssr.github.io/guildes-plateformes-propres/#/guides/README_GUIDE): Write a great introductory text for your repository.
+- [Contributing Guide](https://srgssr.github.io/guildes-plateformes-propres/#/guides/CONTRIBUTING_GUIDE): Ensure smooth collaboration and
   contribution to your project.
-- [Code of Conduct Guide](docs/guides/CODE_OF_CONDUCT_GUIDE.md): Provide guidelines to ensure
+- [Code of Conduct Guide](https://srgssr.github.io/guildes-plateformes-propres/#/guides/CODE_OF_CONDUCT_GUIDE): Provide guidelines to ensure
   everyone can safely contribute.
-- [License Guide](docs/guides/LICENSE_GUIDE.md): Pick an appropriate license.
+- [License Guide](https://srgssr.github.io/guildes-plateformes-propres/#/guides/LICENSE_GUIDE): Pick an appropriate license.
 
 > [!TIP]
 > GitHub Community Standards are a great source of information and best practices. You can check
@@ -30,12 +29,12 @@ at [opensource.guide](https://opensource.guide/).
 ## Contributing
 
 We welcome contributions from everyone. To get started, please read
-our [Contribution Guidelines](docs/CONTRIBUTING.md). Feel free
-to [open issues][open-issues], [submit pull requests][submit-pr], or [share your ideas][dicussions].
+our [Contribution Guidelines](./CONTRIBUTING.md). Feel free
+to [open issues][open-issues], [submit pull requests][submit-pr], or [share your ideas][discussions].
 
 ## License
 
-See the [LICENSE](LICENSE) file for more information.
+See the [LICENSE](../LICENSE) file for more information.
 
 [open-issues]: https://github.com/SRGSSR/guilde-plateformes-propres/issues/new
 
