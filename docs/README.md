@@ -1,43 +1,41 @@
 # RTS Development Guidelines
 
-A guide for promoting best practices among RTS code repositories.
+This repository provides guidelines aimed at enhancing the quality of your project's documentation
+and promoting best practices. These guidelines cover a range of topics, from crafting a
+comprehensive README to selecting an appropriate license.
 
-## Introduction
+To access the guidelines, please visit: [RTS Development Guidelines][rts-development-guidelines].
 
-The software industry is constantly evolving. Our own practices should similarly evolve to
-disseminate knowledge throughout teams, share ownership, make it easier for newcomers to start and
-for seasoned developers to contribute to any project.
+## How to Contribute
 
-## Guides
+We welcome contributions from everyone. The site is hosted on GitHub pages and is powered
+by [docsify][docsify], served from the [public](../public) folder in this repository.
 
-The following guides are offered to help you improve your repository:
-- [Readme Guide](https://srgssr.github.io/guildes-plateformes-propres/#/guides/README_GUIDE): Write a great introductory text for your repository.
-- [Contributing Guide](https://srgssr.github.io/guildes-plateformes-propres/#/guides/CONTRIBUTING_GUIDE): Ensure smooth collaboration and
-  contribution to your project.
-- [Code of Conduct Guide](https://srgssr.github.io/guildes-plateformes-propres/#/guides/CODE_OF_CONDUCT_GUIDE): Provide guidelines to ensure
-  everyone can safely contribute.
-- [License Guide](https://srgssr.github.io/guildes-plateformes-propres/#/guides/LICENSE_GUIDE): Pick an appropriate license.
+Here's a brief overview of the project structure:
+
+- [public](../public): This directory serves as the homepage for the docsify site.
+- [public/_sidebar.md](../public/_sidebar.md): This markdown file renders the sidebar of the page.
+  Add links to your guidelines here.
+- [public/guides/](../public/guides): This directory contains the guideline documents, written in
+  markdown.
+
+To create a new guide, simply add a file under [public/guides](../public/guides) and include a link
+to it in the [_sidebar.md](../public/_sidebar.md) file.
 
 > [!TIP]
-> GitHub Community Standards are a great source of information and best practices. You can check
-> that your project follows these standards at any time by checking _Community Standards_ under the
-_Insights_ section.
+> To test the site simply open [public/index.html](../public/index.html) on your project.
 
-More sources are available online for further reading; you can start exploring them
-at [opensource.guide](https://opensource.guide/).
+Please adhere to our [Contribution Guidelines](./CONTRIBUTING.md) when making a contribution.
 
-## Contributing
-
-We welcome contributions from everyone. To get started, please read
-our [Contribution Guidelines](./CONTRIBUTING.md). Feel free
-to [open issues][open-issues], [submit pull requests][submit-pr], or [share your ideas][discussions].
+Feel free to [open issues][open-issues], [submit pull requests][submit-pr],
+or [share your ideas][discussions].
 
 ## License
 
-See the [LICENSE](../LICENSE) file for more information.
+For more information, please refer to the [LICENSE](../LICENSE) file.
 
+[docsify]: https://docsify.js.org/
+[rts-development-guidelines]: https://srgssr.github.io/guildes-plateformes-propres/
 [open-issues]: https://github.com/SRGSSR/guilde-plateformes-propres/issues/new
-
 [submit-pr]: https://github.com/SRGSSR/guilde-plateformes-propres/compare
-
 [discussions]: https://github.com/SRGSSR/guilde-plateformes-propres/discussions
