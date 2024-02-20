@@ -12,12 +12,12 @@ for seasoned developers to contribute to any project.
 
 The following guides are offered to help you improve your repository:
 
-- [Readme Guide](docs/guides/README_GUIDE.md): Write a great introductory text for your repository.
-- [Contributing Guide](docs/guides/CONTRIBUTING_GUIDE.md): Ensure smooth collaboration and
+- [Readme Guide](./guides/README_GUIDE.md): Write a great introductory text for your repository.
+- [Contributing Guide](./guides/CONTRIBUTING_GUIDE.md): Ensure smooth collaboration and
   contribution to your project.
-- [Code of Conduct Guide](docs/guides/CODE_OF_CONDUCT_GUIDE.md): Provide guidelines to ensure
+- [Code of Conduct Guide](./guides/CODE_OF_CONDUCT_GUIDE.md): Provide guidelines to ensure
   everyone can safely contribute.
-- [License Guide](docs/guides/LICENSE_GUIDE.md): Pick an appropriate license.
+- [License Guide](./guides/LICENSE_GUIDE.md): Pick an appropriate license.
 
 > [!TIP]
 > GitHub Community Standards are a great source of information and best practices. You can check
@@ -26,16 +26,6 @@ _Insights_ section.
 
 More sources are available online for further reading; you can start exploring them
 at [opensource.guide](https://opensource.guide/).
-
-## Contributing
-
-We welcome contributions from everyone. To get started, please read
-our [Contribution Guidelines](docs/CONTRIBUTING.md). Feel free
-to [open issues][open-issues], [submit pull requests][submit-pr], or [share your ideas][dicussions].
-
-## License
-
-See the [LICENSE](LICENSE) file for more information.
 
 [open-issues]: https://github.com/SRGSSR/guilde-plateformes-propres/issues/new
 
