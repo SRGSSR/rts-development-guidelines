@@ -1,0 +1,143 @@
+name: Update Tech Radar
+
+on:
+  push:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update_tech_radar:
+    runs-on: ubuntu-latest
+    name: Update Tech Radar
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install gomplate
+        run: npm install -g gomplate
+
+      - name: Get the list of repositories
+        id: repository_list
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          repository_list_json=$(
+            gh api \
+              -H 'Accept: application/vnd.github+json' \
+              -H 'X-GitHub-Api-Version: 2022-11-28' \
+              --method GET \
+              /orgs/${{ github.repository_owner }}/repos \
+              --paginate \
+              | jq '[ .[] | select(.archived == false and .fork == false and .private == false) | { name: .name, nameWithOwner: .full_name, primaryLanguage: .language, url: .html_url } ]'
+          )
+
+          repositories_count=$(echo $repository_list_json | jq '. | length')
+
+          echo -e "→ Retrieved $repositories_count repositories."
+
+          echo repository_list_json=$repository_list_json >> $GITHUB_OUTPUT
+
+      - name: Update the list of used languages
+        run: |
+          echo ${{ toJSON(steps.repository_list.outputs.repository_list_json) }} \
+            | jq '. | reduce .[] as { $name, $primaryLanguage, $url } ( {}; .[ $primaryLanguage | tostring ][$name] = $url )' \
+            | gomplate -d repositories=stdin:///in.json -f techRadar/used_languages.tmpl -o public/techRadar/used_languages.md
+
+      - name: Update the list of used dependencies
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          repository_names=$(
+            echo ${{ toJSON(steps.repository_list.outputs.repository_list_json) }} \
+              | jq -r '.[] | .nameWithOwner'
+          )
+
+          # Folder where temporary data will be stored
+          mkdir -p .packageManagers
+
+          # Load all the dependencies data
+          for name in $repository_names; do
+            # Get the list of dependencies by package manager
+            echo -e "→ Extracting the dependencies of $name."
+
+            dependencies=$(
+              gh api \
+                -H 'Accept: application/vnd.github+json' \
+                -H 'X-GitHub-Api-Version: 2022-11-28' \
+                /repos/$name/dependency-graph/sbom \
+                --jq '[ .sbom.packages.[] | { name: .name | sub("[a-zA-Z.]+[:/](?<package>.*)"; "\(.package)"), packageManager: .name | capture("(?<packageManager>[a-zA-Z.]+)[:/]").packageManager, version: .versionInfo } ] | reduce .[] as { $name, $packageManager, $version } ( {}; .[ $packageManager ] += [ $name + " v" + $version ] )' \
+                2>/dev/null
+            )
+
+            if [ $? -ne 0 ]; then
+              echo -e "← $name doesn't have Dependency Graph enabled."
+              echo $name >> .packageManagers/unknown
+              continue
+            fi
+
+            # Extract the list of package managers
+            package_managers=$(
+              echo $dependencies \
+                | jq -r '. | keys[]'
+            )
+
+            # Store the dependencies by package manager in specific files
+            package_managers_count=$(echo $dependencies | jq '. | keys | length')
+            dependencies_count=$(echo $dependencies | jq '. | reduce .[] as $item (0; . + ($item | length))')
+            for package_manager in $package_managers; do
+              if [[ $package_manager != "com.github.SRGSSR" ]]; then
+                echo $dependencies | jq -r ".$package_manager | .[]" >> .packageManagers/$package_manager
+              fi
+            done
+
+            echo -e "← Extracted $dependencies_count dependencies from $package_managers_count package managers for $name."
+          done
+
+          # Filter the resulting dependencies
+          for file in $(ls .packageManagers); do
+            if [[ -s .packageManagers/$file ]]; then
+              cat .packageManagers/$file | sort | uniq > .packageManagers/${file}_sorted
+              mv .packageManagers/${file}_sorted .packageManagers/$file
+            else
+              rm .packageManagers/$file
+            fi
+          done
+
+          # Update the Markdown file with the extracted data
+          markdown_file="public/techRadar/used_dependencies.md"
+
+          echo -e "# Used dependencies\n" > $markdown_file
+
+          for file in $(ls .packageManagers); do
+            echo -e "## $file\n" >> $markdown_file
+
+            if [[ $file == "unknown" ]]; then
+              echo -e "> [!WARNING]" >> $markdown_file
+              echo -e "> The following repositories didn't enable Dependency Graph." >> $markdown_file
+              echo -e "> It can be enabled by clicking on the corresponding link below.\n" >> $markdown_file
+              echo -e "There are `cat .packageManagers/$file | wc -l` repositories without Dependency Graph:\n" >> $markdown_file
+            else
+              echo -e "There are `cat .packageManagers/$file | wc -l` artefacts coming from this package manager:" >> $markdown_file
+            fi
+
+            while read -r line; do
+              if [[ $file == "unknown" ]]; then
+                echo -e "- [$line](https://github.com/$line) ([enable Dependency Graph](https://github.com/$line/network/dependencies))" >> $markdown_file
+              else
+                echo -e "- \`$line\`" >> $markdown_file
+              fi
+            done < .packageManagers/$file
+
+            echo -e "" >> $markdown_file
+          done
+
+      - name: Commit the list of changes
+        run: |
+          if [ `git ls-files -m | wc -l` -gt 0 ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/techRadar/used_languages.md
+            git add public/techRadar/used_dependencies.md
+            git commit -m "Update Tech Radar"
+            git push
+          fi
