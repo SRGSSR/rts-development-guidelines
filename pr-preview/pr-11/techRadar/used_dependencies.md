@@ -437,7 +437,7 @@
 - maven:org.jetbrains.kotlin:kotlin-scripting-common v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable v1.9.20
-- maven:org.jetbrains.kotlin:kotlin-scripting-jvm v1.9.22
+- maven:org.jetbrains.kotlin:kotlin-scripting-jvm v1.9.20
 - maven:org.jetbrains.kotlin:kotlin-serialization v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-serialization-compiler-plugin-embeddable v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-stdlib v1.9.21
