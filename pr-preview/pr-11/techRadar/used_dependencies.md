@@ -1,5 +1,7 @@
 # Used dependencies
 
+## actions
+
 - actions:WyriHaximus/github-action-get-previous-tag v1
 - actions:actions/checkout v3
 - actions:actions/setup-java v3
@@ -13,7 +15,13 @@
 - actions:ncipollo/release-action v1
 - actions:reactivecircus/android-emulator-runner v2
 - actions:wzieba/Firebase-Distribution-Github-Action v1
+
+## com.github.SRGSSR
+
 - com.github.SRGSSR/pillarbox-android v
+
+## maven
+
 - maven:androidx.activity:activity v1.2.4
 - maven:androidx.activity:activity-compose v1.7.0
 - maven:androidx.activity:activity-ktx v1.7.1
@@ -76,7 +84,7 @@
 - maven:androidx.concurrent:concurrent-futures v1.1.0
 - maven:androidx.coordinatorlayout:coordinatorlayout v1.0.0
 - maven:androidx.core:core v1.12.0
-- maven:androidx.core:core-ktx v1.2.0
+- maven:androidx.core:core-ktx v1.12.0
 - maven:androidx.cursoradapter:cursoradapter v1.0.0
 - maven:androidx.customview:customview v1.0.0
 - maven:androidx.customview:customview-poolingcontainer v1.0.0
@@ -437,7 +445,7 @@
 - maven:org.jetbrains.kotlin:kotlin-scripting-common v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable v1.9.20
-- maven:org.jetbrains.kotlin:kotlin-scripting-jvm v1.9.20
+- maven:org.jetbrains.kotlin:kotlin-scripting-jvm v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-serialization v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-serialization-compiler-plugin-embeddable v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-stdlib v1.9.21
@@ -451,7 +459,7 @@
 - maven:org.jetbrains.kotlin:kotlin-tooling-core v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-util-io v1.9.20
 - maven:org.jetbrains.kotlin:kotlin-util-klib v1.9.20
-- maven:org.jetbrains.kotlinx:atomicfu v0.23.1
+- maven:org.jetbrains.kotlinx:atomicfu v0.20.2
 - maven:org.jetbrains.kotlinx:kotlinx-coroutines-android v1.7.1
 - maven:org.jetbrains.kotlinx:kotlinx-coroutines-bom v1.7.3
 - maven:org.jetbrains.kotlinx:kotlinx-coroutines-core v1.8.0
@@ -505,3 +513,4 @@
 - maven:org.tensorflow:tensorflow-lite-metadata v0.1.0-rc2
 - maven:xerces:xercesimpl v2.12.0
 - maven:xml-apis:xml-apis v1.4.01
+
