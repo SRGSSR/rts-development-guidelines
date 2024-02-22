@@ -12,3 +12,4 @@
 **Tech Radar**
 
 * [Used languages](/techRadar/used_languages.md)
+* [Used dependencies](/techRadar/used_dependencies.md)
