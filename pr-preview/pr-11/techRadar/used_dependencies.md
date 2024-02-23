@@ -445,7 +445,7 @@
 - maven:org.jetbrains.kotlin:kotlin-scripting-common v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable v1.9.20
-- maven:org.jetbrains.kotlin:kotlin-scripting-jvm v1.9.22
+- maven:org.jetbrains.kotlin:kotlin-scripting-jvm v1.9.20
 - maven:org.jetbrains.kotlin:kotlin-serialization v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-serialization-compiler-plugin-embeddable v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-stdlib v1.9.21
@@ -456,10 +456,10 @@
 - maven:org.jetbrains.kotlin:kotlin-test-annotations-common v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-test-common v1.9.22
 - maven:org.jetbrains.kotlin:kotlin-test-junit v1.9.22
-- maven:org.jetbrains.kotlin:kotlin-tooling-core v1.9.22
+- maven:org.jetbrains.kotlin:kotlin-tooling-core v1.9.20
 - maven:org.jetbrains.kotlin:kotlin-util-io v1.9.20
 - maven:org.jetbrains.kotlin:kotlin-util-klib v1.9.20
-- maven:org.jetbrains.kotlinx:atomicfu v0.20.2
+- maven:org.jetbrains.kotlinx:atomicfu v0.23.1
 - maven:org.jetbrains.kotlinx:kotlinx-coroutines-android v1.7.1
 - maven:org.jetbrains.kotlinx:kotlinx-coroutines-bom v1.7.3
 - maven:org.jetbrains.kotlinx:kotlinx-coroutines-core v1.8.0
@@ -506,7 +506,7 @@
 - maven:org.robolectric:shadowapi v4.11.1
 - maven:org.robolectric:shadows-framework v4.10.3
 - maven:org.robolectric:shadows-versioning v4.11.1
-- maven:org.robolectric:utils v4.11.1
+- maven:org.robolectric:utils v4.10.3
 - maven:org.robolectric:utils-reflector v4.11.1
 - maven:org.slf4j:slf4j-api v2.0.3
 - maven:org.snakeyaml:snakeyaml-engine v2.6
