@@ -43,11 +43,12 @@ setting up and running your application.
 
 > List any prerequisites or requirements needed before setting up the project.
 
-**Running the Application**
+**Setup**
 
-> Provide instructions on running the application locally for application projects.
+> For application projects: provide instructions on running the application
+> locally.
 
-> For libraries, components, or frameworks, explain a typical setup, including
+> For libraries, components, or frameworks: explain a typical setup, including
 > installation from a package distribution manager and a simple use case.
 > Avoid detailed development environment setup in this section.
 
