@@ -18728,28 +18728,29 @@
 - "SPDXRef-com.github.SRGSSR-videojs-ttml"
 - "SPDXRef-com.github.SRGSSR-wdio-jasmine-boilerplate"
 - "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included."
-- "created": "2024-02-28T15:30:57Z",
-- "created": "2024-02-28T15:30:58Z",
-- "created": "2024-02-28T15:30:59Z",
-- "created": "2024-02-28T15:31:00Z",
-- "created": "2024-02-28T15:31:01Z",
-- "created": "2024-02-28T15:31:02Z",
-- "created": "2024-02-28T15:31:03Z",
-- "created": "2024-02-28T15:31:04Z",
-- "created": "2024-02-28T15:31:05Z",
-- "created": "2024-02-28T15:31:06Z",
-- "created": "2024-02-28T15:31:07Z",
-- "created": "2024-02-28T15:31:08Z",
-- "created": "2024-02-28T15:31:09Z",
-- "created": "2024-02-28T15:31:10Z",
-- "created": "2024-02-28T15:31:11Z",
-- "created": "2024-02-28T15:31:12Z",
-- "created": "2024-02-28T15:31:13Z",
-- "created": "2024-02-28T15:31:14Z",
-- "created": "2024-02-28T15:31:16Z",
-- "created": "2024-02-28T15:31:17Z",
-- "created": "2024-02-28T15:31:18Z",
-- "created": "2024-02-28T15:31:19Z",
+- "created": "2024-02-28T15:32:26Z",
+- "created": "2024-02-28T15:32:27Z",
+- "created": "2024-02-28T15:32:28Z",
+- "created": "2024-02-28T15:32:29Z",
+- "created": "2024-02-28T15:32:30Z",
+- "created": "2024-02-28T15:32:31Z",
+- "created": "2024-02-28T15:32:32Z",
+- "created": "2024-02-28T15:32:33Z",
+- "created": "2024-02-28T15:32:34Z",
+- "created": "2024-02-28T15:32:35Z",
+- "created": "2024-02-28T15:32:36Z",
+- "created": "2024-02-28T15:32:37Z",
+- "created": "2024-02-28T15:32:38Z",
+- "created": "2024-02-28T15:32:39Z",
+- "created": "2024-02-28T15:32:41Z",
+- "created": "2024-02-28T15:32:42Z",
+- "created": "2024-02-28T15:32:43Z",
+- "created": "2024-02-28T15:32:44Z",
+- "created": "2024-02-28T15:32:45Z",
+- "created": "2024-02-28T15:32:46Z",
+- "created": "2024-02-28T15:32:47Z",
+- "created": "2024-02-28T15:32:48Z",
+- "created": "2024-02-28T15:32:49Z",
 - "creators": [
 - ]
 - ],
@@ -18808,52 +18809,52 @@
 - com.github.SRGSSR/videojs-offset
 - com.github.SRGSSR/videojs-ttml
 - com.github.SRGSSR/wdio-jasmine-boilerplate
-- https://github.com/SRGSSR/.github/dependency_graph/sbom-b7c4bca6f957aa86
-- https://github.com/SRGSSR/ComScore-xcframework-apple/dependency_graph/sbom-da48d21a1f31bc66
-- https://github.com/SRGSSR/GoogleCastSDK-ios-no-bluetooth/dependency_graph/sbom-f11289369c064f20
-- https://github.com/SRGSSR/GoogleCastSDK-no-bluetooth/dependency_graph/sbom-f0a0b91ab807dde4
-- https://github.com/SRGSSR/PowershellScriptsSelection/dependency_graph/sbom-ed2cc61b8e42af8a
-- https://github.com/SRGSSR/SRGMediaPlayer-Tools/dependency_graph/sbom-59cf9f1e8d2e64da
-- https://github.com/SRGSSR/TCSDK-xcframework-apple/dependency_graph/sbom-4d340ded73ea7637
-- https://github.com/SRGSSR/TCServerSide-xcframework-spm-test-apple/dependency_graph/sbom-9af4432a77710a00
-- https://github.com/SRGSSR/TestPrep/dependency_graph/sbom-a84aa124f8464938
-- https://github.com/SRGSSR/WakeUp/dependency_graph/sbom-1199b8b026ae842b
-- https://github.com/SRGSSR/docker-md2cf/dependency_graph/sbom-0199db968218bc39
-- https://github.com/SRGSSR/ghost-start-tester/dependency_graph/sbom-911ff67130384236
-- https://github.com/SRGSSR/guilde-plateformes-propres/dependency_graph/sbom-2df760f4c46a6434
-- https://github.com/SRGSSR/hackdays2023-storytelling/dependency_graph/sbom-f3f09cb1d1b1c1b9
-- https://github.com/SRGSSR/layered-image-generation-apple/dependency_graph/sbom-135e5e11238d5a9b
-- https://github.com/SRGSSR/pdpcore-schema/dependency_graph/sbom-b25bd3ba0b85a716
-- https://github.com/SRGSSR/pillarbox-android/dependency_graph/sbom-5582cd1a332c4c48
-- https://github.com/SRGSSR/pillarbox-apple/dependency_graph/sbom-de8f06598b607080
-- https://github.com/SRGSSR/pillarbox-documentation/dependency_graph/sbom-f66ce5932f31a656
-- https://github.com/SRGSSR/pillarbox-web-demo/dependency_graph/sbom-4b237469fe615571
-- https://github.com/SRGSSR/pillarbox-web/dependency_graph/sbom-e058f3cc6b45ee19
-- https://github.com/SRGSSR/playsrg-apple/dependency_graph/sbom-7ae90989efefe11a
-- https://github.com/SRGSSR/playsrg-playfff/dependency_graph/sbom-7c8c325bf0e90a9f
-- https://github.com/SRGSSR/react-native-local-network-permission/dependency_graph/sbom-8b4b72c049868a44
-- https://github.com/SRGSSR/react-native-pillarbox/dependency_graph/sbom-24c26c9b44235ae5
-- https://github.com/SRGSSR/recipes/dependency_graph/sbom-6fb84447f5fd8855
-- https://github.com/SRGSSR/rio-gh-actions/dependency_graph/sbom-c2b3ed228a0ac258
-- https://github.com/SRGSSR/rio-lint/dependency_graph/sbom-8276d043c2a3e701
-- https://github.com/SRGSSR/srganalytics-apple/dependency_graph/sbom-563bd4e10ba85b0a
-- https://github.com/SRGSSR/srgappearance-apple/dependency_graph/sbom-2cc2eea40ce85590
-- https://github.com/SRGSSR/srgcontentprotection-apple/dependency_graph/sbom-d237f347c6a002eb
-- https://github.com/SRGSSR/srgdataprovider-android/dependency_graph/sbom-b174c1c8f634a0a4
-- https://github.com/SRGSSR/srgdataprovider-apple/dependency_graph/sbom-1e7fb0b2c2d6a128
-- https://github.com/SRGSSR/srgdiagnostics-apple/dependency_graph/sbom-79b6f366b00db3c4
-- https://github.com/SRGSSR/srgidentity-apple/dependency_graph/sbom-779bb22f02a7f449
-- https://github.com/SRGSSR/srgletterbox-apple/dependency_graph/sbom-2ded5480fd065e56
-- https://github.com/SRGSSR/srgletterbox-peach/dependency_graph/sbom-4009d79a5dcd1843
-- https://github.com/SRGSSR/srglogger-apple/dependency_graph/sbom-30f71b595476f4c4
-- https://github.com/SRGSSR/srgmediaplayer-apple/dependency_graph/sbom-071223a33ebbfdcb
-- https://github.com/SRGSSR/srgnetwork-apple/dependency_graph/sbom-10c2d7a803d70973
-- https://github.com/SRGSSR/srguserdata-apple/dependency_graph/sbom-3cc63a6fe2a8e92e
-- https://github.com/SRGSSR/videojs-hlsjs/dependency_graph/sbom-c4d85e9c7211b0b5
-- https://github.com/SRGSSR/videojs-levels/dependency_graph/sbom-6b81b8e4144aaba4
-- https://github.com/SRGSSR/videojs-offset/dependency_graph/sbom-a8c27a79f3daf3c8
-- https://github.com/SRGSSR/videojs-ttml/dependency_graph/sbom-c9cc1e216723660d
-- https://github.com/SRGSSR/wdio-jasmine-boilerplate/dependency_graph/sbom-9475d45e05bee606
+- https://github.com/SRGSSR/.github/dependency_graph/sbom-f8a5cd5366c3043d
+- https://github.com/SRGSSR/ComScore-xcframework-apple/dependency_graph/sbom-63ba5d1d4cd173fa
+- https://github.com/SRGSSR/GoogleCastSDK-ios-no-bluetooth/dependency_graph/sbom-e9ba03a2d71094b8
+- https://github.com/SRGSSR/GoogleCastSDK-no-bluetooth/dependency_graph/sbom-d02f6e7aa0db029a
+- https://github.com/SRGSSR/PowershellScriptsSelection/dependency_graph/sbom-c5298816c3a968dd
+- https://github.com/SRGSSR/SRGMediaPlayer-Tools/dependency_graph/sbom-32f8b1bbb0ca8aba
+- https://github.com/SRGSSR/TCSDK-xcframework-apple/dependency_graph/sbom-6ca4e4caa33cd497
+- https://github.com/SRGSSR/TCServerSide-xcframework-spm-test-apple/dependency_graph/sbom-1636a3ebcd92d694
+- https://github.com/SRGSSR/TestPrep/dependency_graph/sbom-3427e57667c17a46
+- https://github.com/SRGSSR/WakeUp/dependency_graph/sbom-52d6436f38dc17f5
+- https://github.com/SRGSSR/docker-md2cf/dependency_graph/sbom-cfa0ca14b6f0692e
+- https://github.com/SRGSSR/ghost-start-tester/dependency_graph/sbom-3bdc95627e2d8b37
+- https://github.com/SRGSSR/guilde-plateformes-propres/dependency_graph/sbom-44e79e368bed9139
+- https://github.com/SRGSSR/hackdays2023-storytelling/dependency_graph/sbom-16ddf922b908b005
+- https://github.com/SRGSSR/layered-image-generation-apple/dependency_graph/sbom-35a1b55315c312ac
+- https://github.com/SRGSSR/pdpcore-schema/dependency_graph/sbom-9f82d018e8998c14
+- https://github.com/SRGSSR/pillarbox-android/dependency_graph/sbom-989327a10b8df6bd
+- https://github.com/SRGSSR/pillarbox-apple/dependency_graph/sbom-2132aa7207b52b77
+- https://github.com/SRGSSR/pillarbox-documentation/dependency_graph/sbom-78231185c04304fe
+- https://github.com/SRGSSR/pillarbox-web-demo/dependency_graph/sbom-3b6148e3c5703a1d
+- https://github.com/SRGSSR/pillarbox-web/dependency_graph/sbom-3bf92cca8f916581
+- https://github.com/SRGSSR/playsrg-apple/dependency_graph/sbom-4ad301b05c420d1b
+- https://github.com/SRGSSR/playsrg-playfff/dependency_graph/sbom-9e4d8a0f6bdc6c1e
+- https://github.com/SRGSSR/react-native-local-network-permission/dependency_graph/sbom-7127b6164dd5cdae
+- https://github.com/SRGSSR/react-native-pillarbox/dependency_graph/sbom-a1c62e234d4721ce
+- https://github.com/SRGSSR/recipes/dependency_graph/sbom-f970dc5aa225791c
+- https://github.com/SRGSSR/rio-gh-actions/dependency_graph/sbom-2dd20006286cae8b
+- https://github.com/SRGSSR/rio-lint/dependency_graph/sbom-a6d48c6301968c2b
+- https://github.com/SRGSSR/srganalytics-apple/dependency_graph/sbom-a787fb33fecc701c
+- https://github.com/SRGSSR/srgappearance-apple/dependency_graph/sbom-d1b815093e9f91a5
+- https://github.com/SRGSSR/srgcontentprotection-apple/dependency_graph/sbom-108f8cf381334827
+- https://github.com/SRGSSR/srgdataprovider-android/dependency_graph/sbom-f2648d3dc47bb3db
+- https://github.com/SRGSSR/srgdataprovider-apple/dependency_graph/sbom-9d030e90bfe3152d
+- https://github.com/SRGSSR/srgdiagnostics-apple/dependency_graph/sbom-b6418c1146f14e7a
+- https://github.com/SRGSSR/srgidentity-apple/dependency_graph/sbom-cf19fb2b71123e1a
+- https://github.com/SRGSSR/srgletterbox-apple/dependency_graph/sbom-7fa88a80f44393db
+- https://github.com/SRGSSR/srgletterbox-peach/dependency_graph/sbom-6ccff12477255f89
+- https://github.com/SRGSSR/srglogger-apple/dependency_graph/sbom-3bde5830aae8ec68
+- https://github.com/SRGSSR/srgmediaplayer-apple/dependency_graph/sbom-e32469aa9973d987
+- https://github.com/SRGSSR/srgnetwork-apple/dependency_graph/sbom-1eee4e050d1a06c0
+- https://github.com/SRGSSR/srguserdata-apple/dependency_graph/sbom-62099b7094d2fb5b
+- https://github.com/SRGSSR/videojs-hlsjs/dependency_graph/sbom-087c10f852d1d668
+- https://github.com/SRGSSR/videojs-levels/dependency_graph/sbom-43085932240a8941
+- https://github.com/SRGSSR/videojs-offset/dependency_graph/sbom-5d2649b64be20d03
+- https://github.com/SRGSSR/videojs-ttml/dependency_graph/sbom-d403437814c33a85
+- https://github.com/SRGSSR/wdio-jasmine-boilerplate/dependency_graph/sbom-ee04f90b61b5d241
 - {
 - }
 
