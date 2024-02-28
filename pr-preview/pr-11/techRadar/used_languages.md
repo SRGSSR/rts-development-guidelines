@@ -4,75 +4,76 @@ This page lists all the repositories of the SRG SSR GitHub organisation, grouped
 language.
 Some repository may use more than one language, which is not reflected in this document.
 
+## C#
+
+- [WakeUp](https://github.com/SRGSSR/WakeUp)
+
 ## HTML
 
-- [SRGMediaPlayer-Tools](https://api.github.com/repos/SRGSSR/SRGMediaPlayer-Tools)
-- [guilde-plateformes-propres](https://api.github.com/repos/SRGSSR/guilde-plateformes-propres)
+- [SRGMediaPlayer-Tools](https://github.com/SRGSSR/SRGMediaPlayer-Tools)
 
 ## Java
 
-- [playsrg-playfff](https://api.github.com/repos/SRGSSR/playsrg-playfff)
-- [react-native-pillarbox](https://api.github.com/repos/SRGSSR/react-native-pillarbox)
+- [TestPrep](https://github.com/SRGSSR/TestPrep)
+- [playsrg-playfff](https://github.com/SRGSSR/playsrg-playfff)
 
 ## JavaScript
 
-- [hackdays2023-storytelling](https://api.github.com/repos/SRGSSR/hackdays2023-storytelling)
-- [layered-image-generation-apple](https://api.github.com/repos/SRGSSR/layered-image-generation-apple)
-- [pillarbox-web](https://api.github.com/repos/SRGSSR/pillarbox-web)
-- [pillarbox-web-demo](https://api.github.com/repos/SRGSSR/pillarbox-web-demo)
-- [rio-gh-actions](https://api.github.com/repos/SRGSSR/rio-gh-actions)
-- [rio-lint](https://api.github.com/repos/SRGSSR/rio-lint)
-- [srgletterbox-peach](https://api.github.com/repos/SRGSSR/srgletterbox-peach)
+- [layered-image-generation-apple](https://github.com/SRGSSR/layered-image-generation-apple)
+- [rio-gh-actions](https://github.com/SRGSSR/rio-gh-actions)
+- [rio-lint](https://github.com/SRGSSR/rio-lint)
+- [srgletterbox-peach](https://github.com/SRGSSR/srgletterbox-peach)
+- [videojs-hlsjs](https://github.com/SRGSSR/videojs-hlsjs)
+- [videojs-levels](https://github.com/SRGSSR/videojs-levels)
+- [videojs-offset](https://github.com/SRGSSR/videojs-offset)
+- [videojs-ttml](https://github.com/SRGSSR/videojs-ttml)
+- [wdio-jasmine-boilerplate](https://github.com/SRGSSR/wdio-jasmine-boilerplate)
 
 ## Kotlin
 
-- [pillarbox-android](https://api.github.com/repos/SRGSSR/pillarbox-android)
-- [srgdataprovider-android](https://api.github.com/repos/SRGSSR/srgdataprovider-android)
-
-## Makefile
-
-- [docker-md2cf](https://api.github.com/repos/SRGSSR/docker-md2cf)
+- [pillarbox-android](https://github.com/SRGSSR/pillarbox-android)
+- [srgdataprovider-android](https://github.com/SRGSSR/srgdataprovider-android)
 
 ## Objective-C
 
-- [react-native-local-network-permission](https://api.github.com/repos/SRGSSR/react-native-local-network-permission)
-- [srganalytics-apple](https://api.github.com/repos/SRGSSR/srganalytics-apple)
-- [srgappearance-apple](https://api.github.com/repos/SRGSSR/srgappearance-apple)
-- [srgcontentprotection-apple](https://api.github.com/repos/SRGSSR/srgcontentprotection-apple)
-- [srgdataprovider-apple](https://api.github.com/repos/SRGSSR/srgdataprovider-apple)
-- [srgdiagnostics-apple](https://api.github.com/repos/SRGSSR/srgdiagnostics-apple)
-- [srgidentity-apple](https://api.github.com/repos/SRGSSR/srgidentity-apple)
-- [srgletterbox-apple](https://api.github.com/repos/SRGSSR/srgletterbox-apple)
-- [srglogger-apple](https://api.github.com/repos/SRGSSR/srglogger-apple)
-- [srgmediaplayer-apple](https://api.github.com/repos/SRGSSR/srgmediaplayer-apple)
-- [srgnetwork-apple](https://api.github.com/repos/SRGSSR/srgnetwork-apple)
-- [srguserdata-apple](https://api.github.com/repos/SRGSSR/srguserdata-apple)
+- [react-native-local-network-permission](https://github.com/SRGSSR/react-native-local-network-permission)
+- [srganalytics-apple](https://github.com/SRGSSR/srganalytics-apple)
+- [srgappearance-apple](https://github.com/SRGSSR/srgappearance-apple)
+- [srgcontentprotection-apple](https://github.com/SRGSSR/srgcontentprotection-apple)
+- [srgdataprovider-apple](https://github.com/SRGSSR/srgdataprovider-apple)
+- [srgdiagnostics-apple](https://github.com/SRGSSR/srgdiagnostics-apple)
+- [srgidentity-apple](https://github.com/SRGSSR/srgidentity-apple)
+- [srgletterbox-apple](https://github.com/SRGSSR/srgletterbox-apple)
+- [srglogger-apple](https://github.com/SRGSSR/srglogger-apple)
+- [srgmediaplayer-apple](https://github.com/SRGSSR/srgmediaplayer-apple)
+- [srgnetwork-apple](https://github.com/SRGSSR/srgnetwork-apple)
+- [srguserdata-apple](https://github.com/SRGSSR/srguserdata-apple)
 
 ## PowerShell
 
-- [PowershellScriptsSelection](https://api.github.com/repos/SRGSSR/PowershellScriptsSelection)
+- [PowershellScriptsSelection](https://github.com/SRGSSR/PowershellScriptsSelection)
 
 ## Python
 
-- [recipes](https://api.github.com/repos/SRGSSR/recipes)
+- [recipes](https://github.com/SRGSSR/recipes)
 
 ## Shell
 
-- [ComScore-xcframework-apple](https://api.github.com/repos/SRGSSR/ComScore-xcframework-apple)
-- [TCSDK-xcframework-apple](https://api.github.com/repos/SRGSSR/TCSDK-xcframework-apple)
+- [ComScore-xcframework-apple](https://github.com/SRGSSR/ComScore-xcframework-apple)
+- [TCSDK-xcframework-apple](https://github.com/SRGSSR/TCSDK-xcframework-apple)
 
 ## Swift
 
-- [GoogleCastSDK-ios-no-bluetooth](https://api.github.com/repos/SRGSSR/GoogleCastSDK-ios-no-bluetooth)
-- [GoogleCastSDK-no-bluetooth](https://api.github.com/repos/SRGSSR/GoogleCastSDK-no-bluetooth)
-- [TCServerSide-xcframework-spm-test-apple](https://api.github.com/repos/SRGSSR/TCServerSide-xcframework-spm-test-apple)
-- [ghost-start-tester](https://api.github.com/repos/SRGSSR/ghost-start-tester)
-- [pillarbox-apple](https://api.github.com/repos/SRGSSR/pillarbox-apple)
-- [playsrg-apple](https://api.github.com/repos/SRGSSR/playsrg-apple)
+- [GoogleCastSDK-ios-no-bluetooth](https://github.com/SRGSSR/GoogleCastSDK-ios-no-bluetooth)
+- [GoogleCastSDK-no-bluetooth](https://github.com/SRGSSR/GoogleCastSDK-no-bluetooth)
+- [TCServerSide-xcframework-spm-test-apple](https://github.com/SRGSSR/TCServerSide-xcframework-spm-test-apple)
+- [ghost-start-tester](https://github.com/SRGSSR/ghost-start-tester)
+- [pillarbox-apple](https://github.com/SRGSSR/pillarbox-apple)
+- [playsrg-apple](https://github.com/SRGSSR/playsrg-apple)
 
 ## Unknown
 
-- [.github](https://api.github.com/repos/SRGSSR/.github)
-- [pdpcore-schema](https://api.github.com/repos/SRGSSR/pdpcore-schema)
-- [pillarbox-documentation](https://api.github.com/repos/SRGSSR/pillarbox-documentation)
+- [.github](https://github.com/SRGSSR/.github)
+- [pdpcore-schema](https://github.com/SRGSSR/pdpcore-schema)
+- [pillarbox-documentation](https://github.com/SRGSSR/pillarbox-documentation)
 
