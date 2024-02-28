@@ -2,6 +2,7 @@
 
 ## actions
 
+There are 37 artefacts coming from this package manager:
 - `ArtiomTr/jest-coverage-report-action v2`
 - `JamesIves/github-pages-deploy-action vreleases/v4`
 - `WyriHaximus/github-action-get-previous-tag v1`
@@ -42,6 +43,7 @@
 
 ## maven
 
+There are 682 artefacts coming from this package manager:
 - `androidx.activity:activity v1.2.4`
 - `androidx.activity:activity v1.7.0`
 - `androidx.activity:activity v1.7.1`
@@ -727,6 +729,7 @@
 
 ## npm
 
+There are 3815 artefacts coming from this package manager:
 - `@aashutoshrathi/word-wrap v1.2.6`
 - `@actions/core v1.10.0`
 - `@actions/github v5.1.1`
@@ -4545,6 +4548,7 @@
 
 ## rubygems
 
+There are 166 artefacts coming from this package manager:
 - `CFPropertyList v3.0.6`
 - `CFPropertyList v3.0.7`
 - `addressable v2.8.1`
@@ -4714,6 +4718,7 @@
 
 ## swift
 
+There are 76 artefacts coming from this package manager:
 - `bitbucket.org/usercentricscode/usercentrics-spm-sdk v2.12.0`
 - `bitbucket.org/usercentricscode/usercentrics-spm-ui v2.11.1`
 - `github.com/alisoftware/ohhttpstubs v9.0.0`
