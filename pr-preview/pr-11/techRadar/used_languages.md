@@ -11,15 +11,20 @@ Some repository may use more than one language, which is not reflected in this d
 ## HTML
 
 - [SRGMediaPlayer-Tools](https://github.com/SRGSSR/SRGMediaPlayer-Tools)
+- [guilde-plateformes-propres](https://github.com/SRGSSR/guilde-plateformes-propres)
 
 ## Java
 
 - [TestPrep](https://github.com/SRGSSR/TestPrep)
 - [playsrg-playfff](https://github.com/SRGSSR/playsrg-playfff)
+- [react-native-pillarbox](https://github.com/SRGSSR/react-native-pillarbox)
 
 ## JavaScript
 
+- [hackdays2023-storytelling](https://github.com/SRGSSR/hackdays2023-storytelling)
 - [layered-image-generation-apple](https://github.com/SRGSSR/layered-image-generation-apple)
+- [pillarbox-web](https://github.com/SRGSSR/pillarbox-web)
+- [pillarbox-web-demo](https://github.com/SRGSSR/pillarbox-web-demo)
 - [rio-gh-actions](https://github.com/SRGSSR/rio-gh-actions)
 - [rio-lint](https://github.com/SRGSSR/rio-lint)
 - [srgletterbox-peach](https://github.com/SRGSSR/srgletterbox-peach)
@@ -33,6 +38,10 @@ Some repository may use more than one language, which is not reflected in this d
 
 - [pillarbox-android](https://github.com/SRGSSR/pillarbox-android)
 - [srgdataprovider-android](https://github.com/SRGSSR/srgdataprovider-android)
+
+## Makefile
+
+- [docker-md2cf](https://github.com/SRGSSR/docker-md2cf)
 
 ## Objective-C
 
