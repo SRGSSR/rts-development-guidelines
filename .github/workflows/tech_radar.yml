@@ -136,11 +136,8 @@ jobs:
           if [ `git ls-files -m | wc -l` -gt 0 ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git checkout -b github-actions/update_tech_radar_$(date +"%Y-%m-%d")
             git add public/techRadar/used_languages.md
             git add public/techRadar/used_dependencies.md
             git commit -m "Update Tech Radar $(date +"%Y-%m-%d")"
             git push
-
-            gh pr create --fill
           fi
