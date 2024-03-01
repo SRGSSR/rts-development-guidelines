@@ -31,10 +31,8 @@ Here are some reasons why adding a pull request template to your repository is i
 
 ### Adding a Pull Request Template
 
-You can store your pull request template here: `.github/pull_request_template.md`. You can review
-other options on the following GitHub documentation:
-
-[Creating a pull request template for your repository][github-creating-pr-template].
+You can store your pull request template in `.github/pull_request_template.md`.
+You can review other options on the [GitHub documentation][github-creating-pr-template].
 
 ### Example
 
