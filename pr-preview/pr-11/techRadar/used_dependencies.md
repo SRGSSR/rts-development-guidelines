@@ -4777,7 +4777,7 @@ There are 76 artefacts coming from this package manager:
 - `github.com/srgssr/srgcontentprotection-apple v3.1.0`
 - `github.com/srgssr/srgdataprovider-apple v17.0.1`
 - `github.com/srgssr/srgdataprovider-apple v19.0.0`
-- `github.com/srgssr/srgdataprovider-apple v>= 0`
+- `github.com/srgssr/srgdataprovider-apple v19.0.1`
 - `github.com/srgssr/srgdiagnostics-apple v3.1.0`
 - `github.com/srgssr/srgidentity-apple v3.3.0`
 - `github.com/srgssr/srgletterbox-apple v8.4.0`
