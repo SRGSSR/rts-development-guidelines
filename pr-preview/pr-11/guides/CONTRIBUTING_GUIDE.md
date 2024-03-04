@@ -22,6 +22,12 @@ Add a file called `CONTRIBUTING.md` to the root of your repository, the `docs` f
 the `.github` folder, with the text you wrote. GitHub automatically adds a link to this file in the
 _About_ section of your repository homepage.
 
+## Next steps
+
+Now that you've added a Contributing Guide to your project, you can help contributors further with
+a pull request template. Follow-up with our [Pull Request Manual][pr-guide].
+
 [github-documentation]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors
 [pillarbox-contributing]: https://github.com/SRGSSR/pillarbox-apple/blob/main/docs/CONTRIBUTING.md
 [contributing-template]: https://github.com/nayafia/contributing-template
+[pr-guide]: ./PULL_REQUEST_GUIDE
