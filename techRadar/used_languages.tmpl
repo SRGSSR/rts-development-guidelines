@@ -1,0 +1,13 @@
+# Used languages
+
+This page lists all the repositories of the SRG SSR GitHub organisation, grouped by primary
+language.
+Some repositories may use more than one language, which is not reflected in this document.
+
+{{ range $language, $repositories := (ds "repositories") -}}
+## {{ if eq $language "null" }}Unknown{{ else }}{{ $language }}{{ end }}
+
+{{ range $name, $url := $repositories -}}
+- [{{ $name }}]({{ $url }})
+{{ end }}
+{{ end -}}
