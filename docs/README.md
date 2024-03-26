@@ -35,7 +35,7 @@ or [share your ideas][discussions].
 For more information, please refer to the [LICENSE](../LICENSE) file.
 
 [docsify]: https://docsify.js.org/
-[rts-development-guidelines]: https://srgssr.github.io/guilde-plateformes-propres/
-[open-issues]: https://github.com/SRGSSR/guilde-plateformes-propres/issues/new
-[submit-pr]: https://github.com/SRGSSR/guilde-plateformes-propres/compare
-[discussions]: https://github.com/SRGSSR/guilde-plateformes-propres/discussions
+[rts-development-guidelines]: https://srgssr.github.io/rts-development-guidelines/
+[open-issues]: https://github.com/SRGSSR/rts-development-guidelines/issues/new
+[submit-pr]: https://github.com/SRGSSR/rts-development-guidelines/compare
+[discussions]: https://github.com/SRGSSR/rts-development-guidelines/discussions

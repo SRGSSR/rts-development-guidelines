@@ -29,8 +29,8 @@ _Insights_ section.
 More sources are available online for further reading; you can start exploring them
 at [opensource.guide](https://opensource.guide/).
 
-[open-issues]: https://github.com/SRGSSR/guilde-plateformes-propres/issues/new
+[open-issues]: https://github.com/SRGSSR/rts-development-guidelines/issues/new
 
-[submit-pr]: https://github.com/SRGSSR/guilde-plateformes-propres/compare
+[submit-pr]: https://github.com/SRGSSR/rts-development-guidelines/compare
 
-[discussions]: https://github.com/SRGSSR/guilde-plateformes-propres/discussions
+[discussions]: https://github.com/SRGSSR/rts-development-guidelines/discussions
