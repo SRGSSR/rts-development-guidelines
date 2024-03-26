@@ -18,6 +18,8 @@ The following guides are offered to help you improve your repository:
 - [Code of Conduct Guide](./guides/CODE_OF_CONDUCT_GUIDE.md): Provide guidelines to ensure
   everyone can safely contribute.
 - [License Guide](./guides/LICENSE_GUIDE.md): Pick an appropriate license.
+- [Security Guide](./guides/SECURITY_GUIDE.md): Provide guidelines for optimizing the security of
+  the repository and its content.
 
 > [!TIP]
 > GitHub Community Standards are a great source of information and best practices. You can check
