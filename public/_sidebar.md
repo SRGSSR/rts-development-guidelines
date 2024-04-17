@@ -11,6 +11,6 @@
 * [Code of Conduct Guidelines](/guides/CODE_OF_CONDUCT_GUIDE.md)
 * [Security policy Guidelines](/guides/SECURITY_GUIDE.md)
 
-**SDK and Libraries**
+**SDKs and Libraries**
 
 * [Introduction](/sdks/INTRODUCTION.md)
