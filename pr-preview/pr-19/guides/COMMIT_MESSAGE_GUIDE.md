@@ -12,9 +12,9 @@ changes made. It typically consists of a single-line summary and an optional ext
 
 A good summary line is:
 
-- **Directive**: start with a concise imperative verb to indicate the action,
+- **Directive**: Start with a concise imperative verb to indicate the action,
   e.g.: `add`, `fix`, `update`.
-- **Specific**: it answers the question: What was done in this commit?
+- **Specific**: It answers the question: What was done in this commit?
 - **Concise**: Keep it short and focused.
 
 Example: `add authentication integration`.
