@@ -1,4 +1,4 @@
-# SDK and Libraries
+# SDKs and Libraries
 
 This section provides comprehensive guidelines and a structured decision-making process for
 selecting, updating, and integrating SDKs and libraries. It aims to standardize tool usage across
