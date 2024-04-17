@@ -57,18 +57,21 @@ flowchart TD
     style L fill:#C62828
 ```
 
+<!-- TODO Restore this section once specific guidelines are ready
+
 ## Platform-Specific Guidelines
 
 Refer to the pages dedicated to each platform for detailed information on recommended and essential
 tools:
 
-- **[Android SDKs and Libraries](./_PLATFORM_TEMPLATE.md)**
-- **[Apple SDKs and Libraries](./_PLATFORM_TEMPLATE.md)**
-- **[Backend SDKs and Libraries](./_PLATFORM_TEMPLATE.md)**
-- **[Data Handling Kits and Libraries](./_PLATFORM_TEMPLATE.md)**
-- **[Infrastructure SDKs](./_PLATFORM_TEMPLATE.md)**
-- **[Web SDKs and Libraries](./_PLATFORM_TEMPLATE.md)**
+- **[Android SDKs and Libraries](./ANDROID.md)**
+- **[Apple SDKs and Libraries](./APPLE.md)**
+- **[Backend SDKs and Libraries](./BACKEND.md)**
+- **[Data Handling Kits and Libraries](./DATA.md)**
+- **[Infrastructure SDKs](./INFRASTRUCTURE.md)**
+- **[Web SDKs and Libraries](./WEB.md)**
 
 Each section provides curated lists of tools, integrating the decision-making principles from the
 chart to ensure optimal tool selection and usage. This approach not only enhances efficiency but
 also aligns with strategic development goals.
+-->
