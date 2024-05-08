@@ -10,6 +10,7 @@
 * [Pull Request Manual](/guides/PULL_REQUEST_GUIDE.md)
 * [Code of Conduct Guidelines](/guides/CODE_OF_CONDUCT_GUIDE.md)
 * [Security policy Guidelines](/guides/SECURITY_GUIDE.md)
+* [Effective Commit Messaging](/guides/COMMIT_MESSAGE_GUIDE.md)
 
 **SDKs and Libraries**
 
